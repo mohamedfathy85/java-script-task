@@ -1,0 +1,171 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    text-transform: capitalize;
+    text-decoration: none;
+   
+    height: 1000px;
+}
+
+
+.list {
+    
+    margin-top: 50px;
+    
+    
+    margin-bottom: 20px;
+    
+    
+   
+}
+
+
+li {
+    list-style-type: none;
+    width: 200px;
+    height: 250px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 25px;
+    color: rgb(8, 108, 238);
+  margin-top: 25px;
+  
+  background-color: cornflowerblue;
+  transition: 2s;
+  
+
+}
+
+li:hover{
+    box-shadow: 1px 1px 2px 2px rgb(20, 20, 19) ;
+    width: 300px;
+}
+
+
+.btn{
+    background-color: rgb(230, 14, 14);
+    color: blanchedalmond;
+    margin-top: -390px;
+    margin-left: 1px;
+    z-index: 10;
+}
+
+.iphone1{
+    background-image: url(./img/iphone\ 14\ pro\ max.jpg);
+    background-size: cover;
+}
+
+.iphonex{
+    background-image: url(./img/iphone\ x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.samsung-note20{
+background-image: url(./img/note20.jpg);
+background-position: left;
+background-size: cover;
+}
+
+
+.iphone-charge{
+background-image: url(./img/iphone\ charger\ wireless.jpg);
+background-size: cover;
+}
+
+.samsung-charge{
+background-image: url(./img/samsung\ charge\ wireless.jpg);
+background-size: cover;
+}
+
+.headphone{
+    background-image: url(./img/flippppppppppppp.jpg);
+    background-size: cover;
+
+}
+
+.mobile-headphone{
+    background-image: url(./img/smartwatch2.jpg);
+    background-size: cover;
+
+}
+
+.smart-watch{
+    background-image: url(./img/smart\ watch.jpg);
+    background-size: cover;
+
+}
+span{
+    margin-top: 215px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+span{
+    transition: 2s;
+    color: orange;
+}
+span:hover{
+    transform: scale(1.1,1.1);
+    color: rgb(16, 134, 189);
+}
+
+.tt{
+    margin-top: -342px;
+    margin-left: 70px;
+}
+.tto{
+  position: relative;
+  top: 45px;
+  left: -40px;
+}
+
+.btn1{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+
+   
+}
+
+.div1{
+
+border-radius: 15px;
+background-color: rgb(139, 148, 167);
+margin-left: 20px;
+}
+
+.div1 h3{
+    margin-left: 20px;
+    
+}
+
+.bttt{
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    color: rgb(245, 245, 230);
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    transition: 2s;
+}
+
+.bttt:hover{
+    box-shadow: 1px 1px 2px 2px rgb(226, 226, 145) ;
+}
+
+.mainh1{
+    transition: 2s;
+}
+.mainh1:hover{
+    transform: scale(1.1,1.1);
+    text-shadow: 1px 1px  5px rgb(172, 182, 34);
+}
